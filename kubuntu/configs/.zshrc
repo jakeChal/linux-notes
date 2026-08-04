@@ -34,7 +34,7 @@ export FZF_ALT_C_OPTS="--preview 'ls -la {}'"
 export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 
 # --- Modern CLI replacements ---
-alias ls='eza --icons'
+alias ls='eza --icons=auto'
 alias ll='eza -lh --icons --git'
 alias la='eza -lah --icons --git'
 alias lt='eza --tree --icons -L 2'
